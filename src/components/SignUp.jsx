@@ -45,7 +45,7 @@ const SignUp = () => {
     };
 
     try {
-      await axios.post('http://localhost:3000/user', data);
+      await axios.post('https://products-backend-entri.onrender.com/user', data);
       alert('Signup successful!');
       navigate('/login');
     } catch (error) {
